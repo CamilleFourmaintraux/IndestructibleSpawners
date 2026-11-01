@@ -1,0 +1,10 @@
+{
+  "config.indestructiblespawners.title": "Indestructible Spawners",
+  "config.indestructiblespawners.category.hardness": "Hardness",
+  "config.indestructiblespawners.server_note": "These settings apply to your singleplayer worlds and to LAN worlds you host. On a dedicated server, edit config/indestructiblespawners.json on the server instead, then restart it.",
+  "config.indestructiblespawners.hardness_note": "Hardness of each block in each difficulty. -1 makes the block indestructible like bedrock: no mining outside creative, no explosions, no Wither, no Ender Dragon. Hardcore uses the Hard value.",
+  "config.indestructiblespawners.hardness.tooltip.spawner": "-1: indestructible, like bedrock.\n0 or more: hardness used for mining instead (explosions, the Wither and the Ender Dragon then work as in vanilla).\nVanilla hardness: 5.",
+  "config.indestructiblespawners.hardness.tooltip.trial_spawner": "-1: indestructible, like bedrock.\n0 or more: hardness used for mining instead (explosions, the Wither and the Ender Dragon then work as in vanilla).\nVanilla hardness: 50.",
+  "config.indestructiblespawners.hardness.tooltip.vault": "-1: indestructible, like bedrock.\n0 or more: hardness used for mining instead (explosions, the Wither and the Ender Dragon then work as in vanilla).\nVanilla hardness: 50.",
+  "config.indestructiblespawners.hardness.invalid": "Must be -1 or 0 and above"
+}

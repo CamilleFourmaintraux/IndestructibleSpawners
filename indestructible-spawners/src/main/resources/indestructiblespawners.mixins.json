@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.grotacam.indestructiblespawners.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EnderDragonMixin",
+		"ExplosionDamageCalculatorMixin",
+		"ServerExplosionMixin",
+		"ServerPlayerGameModeMixin",
+		"WitherBossMixin",
+		"WitherSkullMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

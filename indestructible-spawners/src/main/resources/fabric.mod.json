@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "indestructiblespawners",
+	"version": "${version}",
+	"name": "Indestructible Spawners",
+	"description": "Spawners, trial spawners and vaults become as indestructible as bedrock: no mining, explosions, Wither or Ender Dragon. Hardness can be set per block and per difficulty instead. Server-side only.",
+	"authors": [
+		"Grotacam"
+	],
+	"license": "MIT",
+	"icon": "assets/indestructiblespawners/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.grotacam.indestructiblespawners.IndestructibleSpawners"
+		],
+		"modmenu": [
+			"net.grotacam.indestructiblespawners.client.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"indestructiblespawners.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": ">=1.21.2 <=1.21.11",
+		"java": ">=21"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}
